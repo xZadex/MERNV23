@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Archivo:wght@200&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.nav-bar{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: .5em 15% 0 15%;
+  background-color: black;
+}
+
+.nav-bar ul{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  gap: 1em;
+}
+
+
+.menu-link, .nav-bar li{
+  text-decoration: none;
+  color: white;
+  transition: all 200ms ease-in-out;
+}
+
+.menu-link:hover, .nav-bar li:hover{
+  color: orange;
+}
+
+.menu-link:visited{
+  color: white;
+}
+
+.app-title-1{
+  font-size: 1.5em;
+  color: white;
+  font-family: 'Archivo', sans-serif;
+  color: orange;
+}
+
+.app-title-2{
+  font-family: 'Archivo Black', sans-serif;
+  color: white;
+}
+
+.product-form-container{
+  display: flex;
+  justify-content: center;
+  margin-top: 3em;
+}
+
+.form-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1em;
+  margin-bottom: 1em;
+}
+
+.form-container label{
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.form-container input{
+  font-size: 1.2em;
+  padding: .25em;
+}
+
+.create-button{
+  width: 100%;
+}
+
+.link{
+  color: inherit;
+}
+
+.action-button{
+  cursor: pointer;
+  border: 0px solid black;
+  padding: 0;
+  transition: all 100ms ease-in-out;
+}
+
+.action-button:hover{
+  transform: scale(120%)
+}
+
+.product-image{
+  height: 400px;
+}
+
+.action-container{
+  display: flex;
+  gap: 1em;
+  align-items: center;
+}

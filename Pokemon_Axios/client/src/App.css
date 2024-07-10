@@ -1,0 +1,43 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+html{
+  box-sizing: border-box;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+}
+
+button{
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2em;
+  padding: .5em 1em;
+  color: white;
+  background-color: rgba(0, 121, 242, 0.959);
+  cursor: pointer;
+  transition: all 200ms ease-in-out;
+  margin-top: 5em;
+}
+
+button:hover{
+  background-color: rgb(48, 150, 252);
+}
+
+ul{
+  margin-top: 1em;
+}
+
+li::first-letter{
+  text-transform: capitalize;
+}
+
+li{
+  font-size: 1.2em;
+  font-weight: bold;
+  list-style: none;
+}
