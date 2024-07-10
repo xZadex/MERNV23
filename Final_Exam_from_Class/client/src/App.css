@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Pirata+One&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.topBar{
+  color: white;
+  background-color: #783F04;
+  padding: 1em;
+  font-family: 'Pirata One', cursive;
+}
+
+.pirateCard{
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
